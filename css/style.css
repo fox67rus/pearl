@@ -1,0 +1,155 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #A8D4AF;
+  background-image: url(../img/fon.jpg);
+  background-repeat: repeat;
+}
+.wrapper {
+  width: 1280px;
+  margin: 0 auto;
+  background-color: white;
+}
+/* шапка */
+header {
+  height: 240px;
+/*  border: 1px solid yellow;*/
+  margin: 0 auto;
+  font-family: Roboto, sans-serif;
+  clear: both;
+}
+
+.top_right,
+.top_center,
+.top_left {
+  /*border: 1px solid black;*/
+  display: inline-block;
+  width: 33%;
+  height: 190px;
+  float: left;
+}
+
+.top_left {
+  text-align: left;
+}
+
+.top_rezhim,
+.top_adress {
+  /*border: 1px solid green;*/
+  height: 60px;
+  font-size: 18px;
+  padding-left: 70px;
+  margin-left: 15px;
+  
+}
+
+.top_rezhim {
+  margin-top: 10px;
+  margin-bottom: 37px;
+  background: url(../img/ico_sprite_small.svg) no-repeat 0 -64px;
+  background-size: 63px;
+}
+
+.top_adress {
+  background: url(../img/ico_sprite_small.svg) no-repeat  0 0;
+  background-size: 63px;
+}
+
+.top_center {
+  text-align: center;
+  cursor: pointer;
+  background: url(../img/Logo.svg) no-repeat;
+  background-size: auto 158px;
+  position: relative;
+  bottom: 0;
+  border-top: 1px solid transparent;
+}
+
+.top_right {
+  text-align: right;
+}
+
+.tel_base {
+  font-weight: bold;
+  font-size: 47px;
+  color: #55974d;
+}
+
+.tel_reserv {
+  font-size: 32px;
+}
+
+.btn {
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  font-size: 14pt;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  width: 242px;
+  margin: 14px 0 0 153px;
+  padding: 22px 12px;
+  cursor: pointer;
+  background: #55974d;
+  box-shadow: 0 0 5px 0 #34495e;
+  border-radius: 10px;
+}
+
+.btn:hover{
+  opacity: 0.8;
+}
+/* меню */
+
+nav {
+    clear: both;
+    height: 50px;
+    background-color: #87cc60;
+}
+
+ul {
+  list-style: none;
+  height: 50px;
+  margin: 0 0 0 60px;
+}
+
+ul a {
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  font-size: 14pt;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  padding: 0 16px;
+  display: block;
+  line-height: 50px;
+  /*border: 1px solid white;*/
+}
+
+ul a:hover {
+  background-color: white;
+  color: black;
+  opacity: 0.6;
+}
+li {
+  float: left;
+}
+
+.first, 
+.first:hover{
+    background-image: url(../img/ico_sprite_small.svg);
+    background-repeat: no-repeat;
+    background-position: -1px -240px;
+    background-size: 48px;
+    width: 16px;
+}
+
+
+/* Фото */
+.photo {
+  height: 562px;
+  background: url(../img/main_pic1.jpg) no-repeat;
+  background-position: center;
+  
+}
