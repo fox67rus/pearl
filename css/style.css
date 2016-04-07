@@ -168,27 +168,38 @@ li {
 }
 
 .box4{
-  margin: 0 auto;  
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
 }
 .service_box{
   border-radius: 10px;
   background-color:  #87cc60;
   width: 300px;
-  height: 152px;
+  height: 130px;
   display: inline-block;
   border: 2px solid transparent;
   color: white;
+  vertical-align: bottom;
 }
 .service_box:hover{
-  background-color:  white;
+  opacity: 0.8;
+  
+  /*
+  background-color:  #CFEBBF;
   border: 2px solid #87cc60;
-  color: #87cc60;
+  color: #55974d;
+*/
+
 }
 
 .sb_head{
 font-family: Roboto, sans-serif;
 font-size: 34px;
 font-weight: 700;
+text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+padding: 10px 0;
 }
 
 .sb_text{
