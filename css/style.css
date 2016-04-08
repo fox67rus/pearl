@@ -154,8 +154,7 @@ li {
   float: left;
 }
 
-.first,
-.first:hover {
+li>.first{
   background-image: url(../img/ico_sprite_small.svg);
   background-repeat: no-repeat;
   background-position: -1px -240px;
@@ -163,6 +162,9 @@ li {
   width: 16px;
 }
 
+li>.first:hover{
+  background-color: transparent;
+}
 
 /* Фото */
 
@@ -213,7 +215,8 @@ li {
 }
 
 .service_box:hover {
-  opacity: 0.8;
+  opacity: 0.6;
+  color: black;
 }
 
 .sb_head {
@@ -375,8 +378,8 @@ li {
 
 }
 
-.news_body>a,
-.article>a{
+.news_body a,
+.article a{
   font-family: Roboto, sans-serif;
   color: #55974d;
   font-size: 24px;
@@ -384,9 +387,10 @@ li {
   text-decoration: none;
 }
 
-.news_body>a:hover,
-.article>a:hover{
+.news_body a:hover,
+.article a:hover{
   text-decoration: none;
+  opacity: 0.6;
 }
 
 .news_description,
