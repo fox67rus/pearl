@@ -68,6 +68,11 @@ header {
   border-top: 1px solid transparent;
 }
 
+.top_center>a{
+  display: block;
+    height: 190px;
+}
+
 .top_right {
   text-align: right;
 }
@@ -300,6 +305,7 @@ li {
   font-weight: 700;
   display: inline-block;
   float: left;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
 
 .news_archive,
