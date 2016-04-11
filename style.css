@@ -1,4 +1,10 @@
-/* предустановки и сбросы */
+
+
+
+
+
+
+/* предустановки и сбросы
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +19,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   vertical-align: baseline;
   outline: none;
 }
-html { height: 101%; } /* always display scrollbars */
+html { height: 101%; } 
 body { font-size: 62.5%; line-height: 1; font-family: Arial, Tahoma, Verdana, sans-serif; }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
@@ -32,7 +38,6 @@ a { text-decoration: none; }
 a:hover { text-decoration: underline; }
 
 
-/* стили  */
 body {
   background-color: #E9EBAA;
   background-image: url(img/fon.png);
@@ -429,4 +434,4 @@ footer a,
 footer a:hover {
   text-decoration: none;
   color: #EAFFE6;
-}
+}*/
