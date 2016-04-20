@@ -11,6 +11,7 @@ body {
 
 .wrapper {
   width: 1280px;
+  
   margin: 0 auto;
   background-color: white;
 }
@@ -26,13 +27,16 @@ header {
 .top_center,
 .top_left {
   display: inline-block;
-  width: 33%;
+  width: 32%;
   height: 190px;
   float: left;
+  margin-right: 0.5%;
+  margin-left: 0.5%;
 }
 
 .top_left {
   text-align: left;
+
 }
 
 .top_rezhim,
@@ -61,6 +65,8 @@ header {
     background-size: auto 158px;
     text-align: center;
     cursor: pointer;
+    margin-right: 1%;
+    margin-left: 1%;
 }
 
 .top_center>a {
@@ -157,9 +163,13 @@ li>.first:hover {
 }
 
 .photo {
-  height: 562px;
   background: url(img/main_pic1.jpg) no-repeat;
-  background-position: center;
+  width: 100%;
+  min-height: 560px;
+  clear: both;
+  background-position: 0px 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .service {
